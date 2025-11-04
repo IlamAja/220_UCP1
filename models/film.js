@@ -13,6 +13,12 @@ module.exports = (sequelize, DataTypes) => {
         },
         sutradara: {
             type: DataTypes.STRING,
+        },
+        tahun_terbit: {
+            type: DataTypes.INTEGER,
+        },
+        genre: {
+            type: DataTypes.STRING,
         }
     });
     return Film;
